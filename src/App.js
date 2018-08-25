@@ -26,11 +26,13 @@ class App extends Component {
 
     return (
       <div className="container">
-          <Table
-            characterData={characters}
-            removeCharacter={this.removeCharacter}
-          />
-          <Form handleSubmit={this.handleSubmit} />
+        <h2>Exercise form my first react tutorial</h2>
+        <p>Add a character with a name and a job to the table.</p>
+        <Table
+          characterData={characters}
+          removeCharacter={this.removeCharacter}
+        />
+        <Form handleSubmit={this.handleSubmit} />
       </div>
     );
   }
